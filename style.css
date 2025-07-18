@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 20px;
+    margin-left: 1px;
+    padding-left: 20px;
+    align-items: center;
+    width: 176px;
+}
+.Address{
+    margin-top: ;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: small; 
+}
+.Address h3{
+    font-size: 18px;   
+}
+.search-box{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 5px;
+    margin-top: px;
+    height: 50px;
+    margin-right: 10;
+    
+}
+.search-box button{
+    background-color: #f8f8f8;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+input{
+    background-color: #f8f8f8;
+    border: none;
+}
+.headerright{
+    display: flex;
+    align-items: center;
+}
+.login-butn{
+    font-size: 20px;
+    margin-left: 30;
+    margin-right: 30;
+    padding-right: 50px;
+    font-weight: 400;
+    height: 30px;
+   margin-right: 50;
+}
+
+#m{
+    border: 50px;
+    font-size: x-large;
+    color: black;
+    background-color: white;
+
+}
+.cart-butn{
+    font-size: 15px;
+    padding: 25px;
+    display: flex;
+    margin-right: 25px;
+    background-color: #cccccc;
+    border-radius: 15px;
+    height: 52px;
+    width: 112px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    color: white;
+    font-weight: bold;
+}
+.banner{
+    max-width: 1280px;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+.category{
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    
+}
+.categoryitem{
+    flex-basis: 26%;
+    
+}
+.categoryitem img{
+     width: 100%;
+     padding: 15px;
+     
+}
+.Products-1{
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.Productitem-1{
+    flex-basis: 10%;
+}
+.Productitem-1 img{
+    width: 100%;
+}
+.Product-section{
+    max-width: 1280px;
+    margin: auto;
+}
+.headingrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding: 20px;
+
+}
+.headingrow h2{
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #0c831f;
+    color: white;
+}
+.headingrow p{
+    color: #0c831f;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: white;    
+}
+.Productrow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.Productitem{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.Productimg{
+    text-align: center;
+    padding: 15px;
+}
+.Productimg img{
+    width: 70%;
+}
+#A{
+    font-size: 10px;
+    display: ;
+    text-align: center;
+    background-color: #0c831f;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    width: 30%;   
+}
+.Productcontent{
+    padding: 15px;
+    padding-top: 0px;
+}
+.Productcontent h3{
+    color: #1f1f1f;
+    font-size: 15px;
+    font-weight: bold; 
+    margin-bottom: 15px;
+    
+}
+.Productcontent p{
+    color: white;
+}
+.btn-price{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 10px;
+}
+.btn-price p{
+    font-size: 15px;
+    background-color: #ccc;
+    color: #8a8a88;
+}
+.btn-price button{
+    border: 1px solid #0c831f;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+footer{
+    max-width: 1280px;
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    margin-top: 20px;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.row1-left{
+    flex-basis: 30%;
+    
+}
+.row1-left h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.Useful-Link{
+    display: flex;
+    list-style: none;
+    gap: 25%;
+    margin-top: 10px;   
+}
+.Useful-Link ul{
+    font-size: 14px;
+    list-style: none;
+}       
+.Useful-Link ul li{
+    margin-bottom: 10px;
+}
+.Useful-Link ul li a{
+    text-decoration: none;
+    color:  #8a8a88;
+}
+.row1-right{
+    flex-basis: 70%;
+    margin-left: 60px;
+}
+.row1-right h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.categories-Link{
+    display: flex;
+    list-style: none;
+    gap: 15%;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.categories-Link ul{
+    font-size: 14px;
+    list-style: none;
+}       
+.categories-Link ul li{
+    margin-bottom: 14px;
+}
+.categories-Link ul li a{
+    text-decoration: none;
+    color:  #8a8a88;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.cp-btn h3{
+    font-size: 14px;
+    color: #8a8a88;
+}
+.Apps{
+    display: flex;
+   
+}
+.Apps h3{
+     color: #8a8a88;
+    font-size: 14px;
+    padding-top: 6px;
+}
+.Apps img{
+    margin-left: 18px;
+}
+.icons{
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+
+}
+.row3 p{
+    font-size: 15px;
+    color: #8a8a8a;
+    margin-top: 8px;
+    padding: 10px;
+}
